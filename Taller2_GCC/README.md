@@ -5,6 +5,9 @@ Instituto Tecnológico de Costa Rica
 Ingeniería en Computadores.   
 2019, II Semestre.  
 
+## Descripción
+Ejemplo básico de biblioteca matemática creada a partir de compilación mediante GCC.
+
 ## Ambiente de prueba
 Linux, Ubuntu 18.04.
 
@@ -30,3 +33,10 @@ $ gcc -o calculadora calculadora.c libmymath.a -lm
 $ gcc -o calculadora calculadora.c -I/home/USER/ROOTDIR -I//home/USER/ROOTDIR -Bdynamic libmymath.so -lm
 $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/USER/ROOTDIR
 ```
+## Autor
+* Jeremy Rodríguez Solórzano  
+201209131  
+jrodriguezs0292@gmail.com
+
+## Version
+1.0.0
