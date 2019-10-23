@@ -13,6 +13,7 @@ Linux, Ubuntu 18.04.
 
 ## Instrucciones
 Antes que nada, crear en la carpeta raiz el directorio /build/usr/  
+Luego, Ingresar a la carpeta build, y ejecutar:  
 ```
 $ autoreconf --install
 $ ../configure --prefix=/home/USER/ROOTDIR/build/usr
